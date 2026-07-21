@@ -6,4 +6,4 @@ __pycache__/
 
 newsletter.html
 
-data/sent_videos.json
+.env
