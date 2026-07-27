@@ -3,8 +3,8 @@ name: Music Weekly
 on:
   workflow_dispatch:
   schedule:
-    # Segunda-feira às 08:00 (Brasília = 11:00 UTC)
-    - cron: "0 11 * * 1"
+    # Segunda-feira às 08:55 (Brasília = 11:55 UTC)
+    - cron: "55 11 * * 1"
 
 permissions:
   contents: write
