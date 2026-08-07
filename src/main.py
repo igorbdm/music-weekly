@@ -22,7 +22,7 @@ def main():
         file.write(html)
 
     send_newsletter(html)
-    mark_as_sent([video["video_id"] for video in all_videos])
+    mark_as_sent(all_videos)
 
     print(f"{len(all_videos)} vídeos encontrados e enviados por e-mail.")
 
